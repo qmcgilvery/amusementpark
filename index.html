@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>WebWorld</title>
-        <meta name="description" content="My Website">
-        <meta property="og:image" content="Images/park.jpg">
-        <link rel="stylesheet" href="StyleSheets/main.css">
-        <link rel="shortcut icon" href="Images/park.jpg" type="favicon/ico" />
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WebWorld</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WebWorld Amusement Park Website">
+    <meta property="og:image" content="images/park.jpg">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="shortcut icon" href="images/park.jpg" type="favicon/ico" />
+  </head>
 	<body>
     <header class="header">
       <div class="container">
         <a href="index.html" class="logo">
-          <img src="Images/amusementparklogo.png" />
+          <img src="images/amusementparklogo.png" alt="WebWorld Amusement Park logo"/>
         </a>
         <nav class="nav" role="menubar">
           <ul class="site-navigation">
@@ -22,13 +23,13 @@
             <li class="site-navigation-item"><a href="#">Rides</a></li>
             <li class="site-navigation-item"><a href="#">Photo Gallery</a></li>
             <li class="site-navigation-item"><a href="contact.html">Contact Us</a></li>
-            <li class="site-navigation-item"><input class="search" placeholder="Search"></input></li>
+            <li class="site-navigation-item"><input class="search" placeholder="Search" /></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main role="main">
+    <main>
       <div class="banner-large home-image">
         <div class="overlay">
           <div class="centered">
@@ -38,12 +39,47 @@
       </div>
       <div class="main"><h1 class="title">WebWorld</h1>
         <div class="messages">
-          <div class="message message-1"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, tellus id sagittis congue, arcu risus placerat erat, vitae maximus nisi justo sagittis mi. Donec velit urna, hendrerit eu sapien sit amet, pretium maximus dolor. Suspendisse efficitur nisi justo, a ultricies neque consequat in. Quisque elementum ultrices nisl eget commodo. Cras eleifend massa ut nibh fermentum, sed malesuada elit convallis. Nulla lectus justo, ultrices sit amet dui quis, dignissim fringilla velit. Duis vel vehicula lacus. Ut convallis purus non aliquet ultricies.</p></div>
-          <div class="message message-2"><p>Nulla a turpis vel metus mattis fermentum. Aenean at enim id turpis efficitur lacinia in at leo. Fusce tristique tincidunt justo, vel iaculis lorem cursus nec. Fusce elementum aliquet libero at interdum. In iaculis gravida nisl, non finibus dolor consequat nec. Nunc efficitur volutpat justo vel consectetur. Nunc euismod nisi justo, id blandit mauris imperdiet ac. Sed at sapien eget dolor lacinia luctus at ac nisl. Donec tincidunt, sem vitae pretium tempus, ante velit convallis augue, sed varius lorem est at nisi. Nam laoreet varius dui sit amet hendrerit.</p></div>
-          <div class="message message-3"><p><h2>Tickets & Reservations</h2>
-          Each member in your party is required to have both a valid ticket and park reservation for the same park on the same date.</p>
-          <li class="site-navigation-item"><a href="tickets.html"><button type="button" class="button button-centered tickets">Parking passes</button></a></li>
-          <li class="site-navigation-item"><a href="tickets.html"><button type="button" class="button button-centered tickets">Theme park tickets</button></a></li>
+          <div class="message message-1">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris egestas, 
+              tellus id sagittis congue, arcu risus placerat erat, vitae maximus nisi justo 
+              sagittis mi. Donec velit urna, hendrerit eu sapien sit amet, pretium maximus dolor. 
+              Suspendisse efficitur nisi justo, a ultricies neque consequat in. 
+              Quisque elementum ultrices nisl eget commodo. Cras eleifend massa ut nibh fermentum, 
+              sed malesuada elit convallis. Nulla lectus justo, ultrices sit amet dui quis, 
+              dignissim fringilla velit. Duis vel vehicula lacus. Ut convallis purus non aliquet ultricies.
+            </p>
+          </div>
+          <div class="message message-2">
+            <p>
+              Nulla a turpis vel metus mattis fermentum. Aenean at enim id turpis efficitur 
+              lacinia in at leo. Fusce tristique tincidunt justo, vel 
+              iaculis lorem cursus nec. Fusce elementum aliquet libero at interdum. 
+              In iaculis gravida nisl, non finibus dolor consequat nec. Nunc efficitur 
+              volutpat justo vel consectetur. Nunc euismod nisi justo, id blandit mauris 
+              imperdiet ac. Sed at sapien eget dolor lacinia luctus at ac nisl. 
+              Donec tincidunt, sem vitae pretium tempus, ante velit convallis augue, 
+              sed varius lorem est at nisi. Nam laoreet varius dui sit amet hendrerit.
+            </p>
+          </div>
+          <div class="message message-3">
+            <h2>Tickets & Reservations</h2>
+            <p>
+              Each member in your party is required to have both a valid ticket and park 
+              reservation for the same park on the same date.
+            </p>
+            <ul class="reservations">
+              <li class="reservations-item">
+                <a href="#" class="button button-centered tickets">
+                  Parking passes
+                </a>
+              </li>
+              <li class="reservations-item">
+                <a href="#" class="button button-centered tickets">
+                  Theme park tickets
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="main-content">Main Content</div>

@@ -1,8 +1,10 @@
 /* Color palette generated from: https://coolors.co/75e4e6-53a1b2-3e778e-315d7e-2e5672-29465a-243742-f8bd4f-f47e3e */
 :root {
+  --white: #ffffff;
   --electric-blue: #75e4e6ff;
   --pacific-blue: #53a1b2ff;
   --teal-blue: #3e778eff;
+  --cyan-blue: #1a3240;
   --blue-sapphire: #315d7eff;
   --blue-sapphire-2: #2e5672ff;
   --charcoal: #29465aff;
@@ -169,19 +171,19 @@ input.search:focus{
 }
 
 .home-image {
-  background-image: url("../Images/home.jpg");
+  background-image: url("../images/home.jpg");
   background-size: cover;
   background-position: 25%;
   background-repeat: no-repeat;
 }
 
 .contact-image {
-  background-image: url("../Images/phone.jpg");
+  background-image: url("../images/phone.jpg");
   background-size: cover;
 }
 
 .about-image {
-  background-image: url("../Images/group.jpg");
+  background-image: url("../images/group.jpg");
   background-size: cover;
 }
 
@@ -327,12 +329,12 @@ ul li {
   width: 70% !important;
 }
 
-.button {
+a.button  {
   border-radius: 5px;
   box-shadow: none;
-  border: 1px solid #1a3240;
-  background-color: #1a3240;
-  color: white;
+  border: 1px solid var(--cyan-blue);
+  background-color: var(--cyan-blue);
+  color: var(--white) !important;
   font-size: 20px;
   padding: 10px;
   cursor: pointer;
@@ -341,15 +343,26 @@ ul li {
 
 .button:hover {
   border: 1px solid var(--pacific-blue);
-  background-color: var(--pacific-blue);
+  background-color: var(--pacific-blue) !important;
 }
 
 .button-centered {
-    margin: 0 auto 20px;
+  margin: 0 auto 20px;
 }
 
 .tickets {
-    background-color: firebrick;
+  background-color: firebrick !important;
+}
+
+.reservations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservations-item {
+  list-style: none none;
+  margin: 15px 15px 0 0;
 }
 
 .text-input {
